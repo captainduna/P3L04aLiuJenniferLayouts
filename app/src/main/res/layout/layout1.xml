@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/large"
+        android:layout_height="@dimen/large"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@color/test_4"
+        android:text="@string/string_1"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/large"
+        android:layout_height="@dimen/large"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/test_2"
+        android:text="@string/string_2"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/large"
+        android:layout_height="@dimen/large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@color/test_2"
+        android:text="@string/string_1"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/large"
+        android:layout_height="@dimen/large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/test_4"
+        android:text="@string/string_2"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

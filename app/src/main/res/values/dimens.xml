@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="large">150dp</dimen>
+    <dimen name="small">150dp</dimen>
+    <dimen name="medium">150dp</dimen>
+    <dimen name="MATCH_CONSTRAINT">150dp</dimen>
+</resources>
