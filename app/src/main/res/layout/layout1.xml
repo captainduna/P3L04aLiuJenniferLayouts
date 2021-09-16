@@ -23,12 +23,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         android:background="@color/test_2"
-        android:text="@string/string_1"/>
+        android:text="@string/string_3"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="@dimen/large"
         android:layout_height="@dimen/large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:background="@color/test_4"
-        android:text="@string/string_2"/>
+        android:text="@string/string_4"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
