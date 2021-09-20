@@ -2,7 +2,57 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/test_1">
-    
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/large"
+        android:layout_height="@dimen/large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/test_2"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/small"
+        android:layout_height="@dimen/small"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias=".1"
+        app:layout_constraintVertical_bias=".3"
+        android:background="@color/test_2"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/small"
+        android:layout_height="@dimen/small"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias=".1"
+        app:layout_constraintVertical_bias=".3"
+        android:background="@color/test_2"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/medium"
+        android:layout_height="@dimen/medium"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias=".15"
+        app:layout_constraintVertical_bias=".35"
+        android:background="@color/test_3"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/small"
+        android:layout_height="@dimen/small"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias=".20"
+        app:layout_constraintVertical_bias=".3"
+        android:background="@color/test_4"/>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
